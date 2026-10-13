@@ -5,3 +5,5 @@ jupyter
 ipykernel
 pyarrow
 scipy
+scikit-learn
+catboost

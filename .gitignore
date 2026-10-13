@@ -43,3 +43,6 @@ models/*
 # Coverage
 .coverage
 htmlcov/
+
+# CatBoost generated files
+catboost_info/
