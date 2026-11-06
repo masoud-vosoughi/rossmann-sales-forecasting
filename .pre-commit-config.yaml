@@ -1,3 +1,4 @@
+
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v5.0.0
@@ -23,9 +24,3 @@ repos:
         entry: ruff format
         language: system
         types_or: [python, pyi, jupyter]
-
-      - id: nbstripout
-        name: nbstripout
-        entry: nbstripout
-        language: system
-        files: '\.ipynb$'
